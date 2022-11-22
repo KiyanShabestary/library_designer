@@ -34,15 +34,15 @@ This code will divide your ORF lists in multiple files 'ORF_sequences/ORF_N', wh
 
 The script is then run on each file independently. Running the script for a given subset is executed in the terminal as shown below:
 ```
-python library_designer_parallel N
+python library_designer_parallel.py N
 ```
 
 N is the integer to run the script on the Nth subset of the library. If you divided your library in three subsets, you will need to run the code three times:
 
 ```
-python library_designer_parallel 1
-python library_designer_parallel 2
-python library_designer_parallel 3
+python library_designer_parallel.py 1
+python library_designer_parallel.py 2
+python library_designer_parallel.py 3
 ```
 
 Output sublibraries will end up in the output folder and can then be further combined to form the final library. 
