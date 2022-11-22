@@ -4,8 +4,8 @@ This script generates a CRISPRi library for any organism of interest
 
 ## Inputs
 
-1. Genomic DNA for off-target search must be deposited as a fasta file in the folder `complete_sequences`
-2. ORFs for sgRNA design must be deposited as a fasta file in the folder `ORF_sequences`
+1. Genomic DNA for off-target search must be deposited in a fasta format as a .txt file in the folder `complete_sequences`
+2. ORFs for sgRNA design must be deposited in a fasta format as a .txt file in the folder `ORF_sequences`
 
 ## Output
 
